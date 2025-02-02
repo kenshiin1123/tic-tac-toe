@@ -392,8 +392,9 @@ ol {
   }
 
   #log {
-    margin: 0 auto;
+    margin: 2rem auto;
     padding: 0;
+    font-size: 1.5rem;
     text-align: center;
   }
 
@@ -401,5 +402,13 @@ ol {
     border: 1px solid rgba(0, 0, 0, 0.342);
     width: 100%;
     border-radius: 0.2rem;
+  }
+
+  #game-over h2 {
+    font-size: 2.6rem;
+  }
+
+  #game-over p {
+    font-size: 1.5rem;
   }
 }
