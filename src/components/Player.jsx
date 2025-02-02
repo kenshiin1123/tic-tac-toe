@@ -34,8 +34,8 @@ export default function Player({
       <span className="player">
         {playerNameSpan}
         <span className="player-symbol">{symbol}</span>
+        <button onClick={handleEditing}>{isEditing ? "Save" : "Edit"}</button>
       </span>
-      <button onClick={handleEditing}>{isEditing ? "Save" : "Edit"}</button>
     </li>
   );
 }
